@@ -646,6 +646,7 @@ img {
   margin-right: 70px;
 }
 .join-container {
+  display: block;
   min-width: 206px;
 }
 
