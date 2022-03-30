@@ -95,7 +95,6 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-
   border-bottom: 1px solid #ececec;
 }
 
@@ -116,13 +115,6 @@ img {
 
 .nav-list-item {
   margin-right: 50px;
-}
-
-/* HERO */
-
-.hero-container {
-  display: block;
-  align-items: center;
 }
 
 .nav-contact {
@@ -202,7 +194,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/img/header-Img.jpg);
+    url("../img/header-Img.jpg");
   background-size: cover;
   background-color: #c4c4c4;
   padding-top: 200px;
@@ -210,9 +202,16 @@ img {
   text-align: center;
 }
 
+.hero-container {
+  display: block;
+  align-items: center;
+}
+
+/* =====end hero===== */
+
 /* =====start features===== */
 
-.container-icons {
+.box-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,10 +221,6 @@ img {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.container-icons:focus .features-list-icon {
-  color: var(--accent-color);
 }
 
 .features-list {
@@ -399,6 +394,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
   padding-bottom: 30px;
+  background: var(--primary-background-light-theme);
 }
 
 .social-list {
@@ -515,7 +511,6 @@ img {
 }
 
 .tile-link:hover {
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
